@@ -50,16 +50,20 @@
 /* hidden items */
 
 .hidden-text {
-    border-top: 1px solid grey;
-    padding-top: 20px;
-    display: none;
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    transition: .4s;
 }
+
 
 .minus-icon {
     display: none;
 }
 
 /* Show on click */
+
 
 .show-text .minus-icon {
     display: inline;
@@ -70,5 +74,7 @@
 }
 
 .show-text .hidden-text {
-    display: block;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    height: 70px;
 }
