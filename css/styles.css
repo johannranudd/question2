@@ -45,6 +45,12 @@
     background: transparent;
     border: none;
     color: purple;
+    transition: .4s;
+    font-size: 20px;
+}
+
+.buttons:hover {
+    transform: rotate(90deg);
 }
 
 /* hidden items */
@@ -53,7 +59,6 @@
     display: block;
     height: 0px;
     overflow: hidden;
-    padding: 0px;
     transition: .4s;
 }
 
